@@ -6,6 +6,20 @@ plugins {
 
 android {
     compileSdk 34
+
+
+splits {
+        abi {
+            enable true
+            reset()
+            include "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+            universalApk false // universal APK চাইলে true করে দিতে পারেন
+        }
+    }
+
+
+
+    
 //    buildToolsVersion "31.0.0"
     defaultConfig {
         applicationId "com.oxoo.spagreen"
