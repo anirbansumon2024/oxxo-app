@@ -2,11 +2,11 @@ name: Android Optimized Release Build
 
 on:
   push:
-    branches: [ "main", "master" ] # আপনার ব্রাঞ্চের নাম অনুযায়ী পরিবর্তন করুন
-  workflow_dispatch: # ম্যানুয়ালি বিল্ড দেওয়ার জন্য
+    branches: [ "main", "master" ]
+  workflow_dispatch:
 
 permissions:
-  contents: write # রিলিজ তৈরি করার পারমিশন
+  contents: write
 
 jobs:
   build:
@@ -23,12 +23,15 @@ jobs:
         distribution: 'temurin'
         cache: gradle
 
+    - name: Fix Line Endings and Grant Permission
+      run: |
+        # gradlew ফাইল থেকে উইন্ডোজের \r ক্যারেক্টার রিমুভ করার জন্য
+        sed -i 's/\r$//' gradlew
+        chmod +x gradlew
+
     - name: Install NDK
       run: |
         echo "y" | sudo ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager --install "ndk;21.3.6528147"
-
-    - name: Grant Execute Permission
-      run: chmod +x gradlew
 
     - name: Build Optimized APKs
       run: ./gradlew assembleDebug --stacktrace
@@ -36,7 +39,6 @@ jobs:
     - name: Generate Release Tag
       id: tag
       run: |
-        # আপনার ভার্সন নাম্বার অনুযায়ী ট্যাগ জেনারেট হবে
         echo "TAG_NAME=v1.3.9-build-$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
 
     - name: Upload to GitHub Releases
@@ -47,10 +49,9 @@ jobs:
         body: |
           ### Automated Android Build
           - **Version:** 1.3.9.d
-          - **Build Date:** ${{ github.event.head_commit.timestamp }}
-          - **Commit:** ${{ github.sha }}
+          - **Build Date:** $(date)
           
-          নিচের আর্কিটেকচার অনুযায়ী আপনার ডিভাইসের জন্য সঠিক APK টি ডাউনলোড করুন।
+          নিচের লিস্ট থেকে আপনার ফোনের আর্কিটেকচার অনুযায়ী APK ডাউনলোড করুন।
         draft: false
         prerelease: false
         files: |
