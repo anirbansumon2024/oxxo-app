@@ -1,0 +1,6 @@
+# ninja log v5
+0	1491	1670235310	CMakeFiles/api_config.dir/api_config.cpp.o	7bca272da81338de
+1492	1654	1670235310	/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/build/intermediates/cxx/RelWithDebInfo/r726s594/obj/arm64-v8a/libapi_config.so	cf1ed40e6aef2740
+0	12	0	clean	90ae7eb1f2d7cab1
+0	10	0	clean	90ae7eb1f2d7cab1
+1	11	0	clean	90ae7eb1f2d7cab1

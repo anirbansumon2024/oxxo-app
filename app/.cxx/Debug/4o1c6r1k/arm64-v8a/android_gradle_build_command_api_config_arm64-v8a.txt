@@ -1,0 +1,7 @@
+Executable : /Users/rafi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/.cxx/Debug/4o1c6r1k/arm64-v8a
+api_config
+jvmArgs : 
+

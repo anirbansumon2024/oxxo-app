@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Mannan\\AndroidStudioProjects\\OXOO-Envato\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Mannan\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Mannan\\AndroidStudioProjects\\OXOO-Envato\\app\\.cxx\\Debug\\14o5f5x2\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Mannan\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Mannan\\AndroidStudioProjects\\OXOO-Envato\\app\\.cxx\\Debug\\14o5f5x2\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "api_config-Debug-x86_64": {
+      "artifactName": "api_config",
+      "buildCommandComponents": [
+        "C:\\Users\\Mannan\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Users\\Mannan\\AndroidStudioProjects\\OXOO-Envato\\app\\.cxx\\Debug\\14o5f5x2\\x86_64",
+        "api_config"
+      ],
+      "abi": "x86_64",
+      "output": "C:\\Users\\Mannan\\AndroidStudioProjects\\OXOO-Envato\\app\\build\\intermediates\\cxx\\Debug\\14o5f5x2\\obj\\x86_64\\libapi_config.so",
+      "runtimeFiles": []
+    }
+  }
+}

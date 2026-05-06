@@ -1,0 +1,12 @@
+# ninja log v5
+1	749	1667286054	CMakeFiles/api_config.dir/api_config.cpp.o	565a2c30986a8105
+750	913	1667286055	/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/build/intermediates/cxx/Debug/4g461e4r/obj/arm64-v8a/libapi_config.so	433bf7174fe34746
+2	1128	1670490234	CMakeFiles/api_config.dir/api_config.cpp.o	565a2c30986a8105
+1128	1312	1670490234	/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/build/intermediates/cxx/Debug/4g461e4r/obj/arm64-v8a/libapi_config.so	433bf7174fe34746
+0	9	0	clean	90ae7eb1f2d7cab1
+17	1697	1671604730	CMakeFiles/api_config.dir/api_config.cpp.o	565a2c30986a8105
+1698	1897	1671604731	/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/build/intermediates/cxx/Debug/4g461e4r/obj/arm64-v8a/libapi_config.so	433bf7174fe34746
+0	11	0	clean	90ae7eb1f2d7cab1
+0	8	0	clean	90ae7eb1f2d7cab1
+5	1919	1671699730	CMakeFiles/api_config.dir/api_config.cpp.o	565a2c30986a8105
+1920	2202	1671699731	/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/build/intermediates/cxx/Debug/4g461e4r/obj/arm64-v8a/libapi_config.so	433bf7174fe34746

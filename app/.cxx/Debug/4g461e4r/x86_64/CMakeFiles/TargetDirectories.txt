@@ -1,0 +1,3 @@
+/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/.cxx/Debug/4g461e4r/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/.cxx/Debug/4g461e4r/x86_64/CMakeFiles/edit_cache.dir
+/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/.cxx/Debug/4g461e4r/x86_64/CMakeFiles/api_config.dir

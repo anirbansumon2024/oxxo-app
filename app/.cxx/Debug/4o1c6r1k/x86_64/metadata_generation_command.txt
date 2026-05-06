@@ -1,0 +1,23 @@
+                    Executable : /Users/rafi/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/src/main/jni
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=x86_64
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DANDROID_NDK=/Users/rafi/Library/Android/sdk/ndk/21.3.6528147
+-DCMAKE_ANDROID_NDK=/Users/rafi/Library/Android/sdk/ndk/21.3.6528147
+-DCMAKE_TOOLCHAIN_FILE=/Users/rafi/Library/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/rafi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/build/intermediates/cxx/Debug/4o1c6r1k/obj/x86_64
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/build/intermediates/cxx/Debug/4o1c6r1k/obj/x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-B/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/.cxx/Debug/4o1c6r1k/x86_64
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

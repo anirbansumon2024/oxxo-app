@@ -1,0 +1,3 @@
+ninja: Entering directory `/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/.cxx/Debug/4o1c6r1k/arm64-v8a'
+[1/2] Building CXX object CMakeFiles/api_config.dir/api_config.cpp.o
+[2/2] Linking CXX shared library /Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/build/intermediates/cxx/Debug/4o1c6r1k/obj/arm64-v8a/libapi_config.so

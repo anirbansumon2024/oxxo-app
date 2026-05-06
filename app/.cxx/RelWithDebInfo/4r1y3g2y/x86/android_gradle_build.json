@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/rafi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/.cxx/RelWithDebInfo/4r1y3g2y/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/rafi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/.cxx/RelWithDebInfo/4r1y3g2y/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "api_config-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/Users/rafi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/.cxx/RelWithDebInfo/4r1y3g2y/x86",
+        "api_config"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "api_config",
+      "output": "/Users/rafi/StudioProjects/Hijbullah/Android/OXOO-Envato/app/build/intermediates/cxx/RelWithDebInfo/4r1y3g2y/obj/x86/libapi_config.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

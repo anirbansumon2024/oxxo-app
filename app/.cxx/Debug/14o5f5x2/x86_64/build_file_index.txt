@@ -1,0 +1,1 @@
+C:\Users\Mannan\AndroidStudioProjects\OXOO-Envato\app\src\main\jni\CMakeLists.txt
